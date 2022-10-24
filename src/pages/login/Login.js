@@ -13,7 +13,6 @@ export default function Login() {
     e.preventDefault();
 
     login(email, password);
-    console.log(email, password);
   };
 
   return (
